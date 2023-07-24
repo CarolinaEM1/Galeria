@@ -1,0 +1,26 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: #000500;  /*Todo el fondo de la página tendrá color negro */
+}
+
+.galeria {
+	width: 100%;
+}
+
+.galeria img {
+	vertical-align: top; 
+	width: 400px; /*Tamaño de la imagen*/
+	margin: 20px;
+	padding: 5px;
+	opacity:0.5; /*opacidad de toda la pagina, solo se puede de 0 a 1 */
+	border:1px solid #484848;
+}
+
+.galeria img:hover { /*el hover es cuando pasamos el mouse por la imagen */
+     border: 1px solid #fff;
+     opacity: 1; /*Opacidad de la imagen */
+}
